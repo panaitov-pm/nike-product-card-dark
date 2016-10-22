@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike product card dark</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- For IE9 and later -->
+    <!--[if lte IE 9]>
+   		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <!-- For IE10 and more -->
+    <![if IE]><![endif]>
+</head>
+<body>
+    <!-- BEGIN container  -->
+    <div class="container">
+        <!-- BEGIN main  -->
+        <main role="main">
+            <!-- BEGIN product -->
+            <section class="product">
+                <!-- BEGIN of header -->
+                <header>
+                    <div class="logo">
+                        <a href="#"><img src="img/logo.png" alt="Brand"></a>
+                    </div>
+                </header>
+                <!-- END of header -->
+                <!-- BEGIN of slider -->
+                <div class="slider">
+                	<div class="slider__inner">
+	                    <img class="slider__img" src="img/Nike-SB-Stefan-Janoski-Max.png" alt="Nike-SB-Stefan-Janoski-Max">
+                	</div>
+                    <div class="switcher">
+                        <div class="switcher__item switcher__item--bg-color-first switcher__item--selected">
+                        </div>
+                        <div class="switcher__item">
+                        </div>
+                        <div class="switcher__item switcher__item--bg-color-third">
+                        </div>
+                        <div class="switcher__item switcher__item--bg-color-forth">
+                        </div>
+                    </div>
+                </div>
+                <!-- END of slider -->
+
+                <!-- BEGIN info  -->
+                <div class="info">
+                	<div class="btn-close">
+                		<p class="btn-close__line-y transition"><p>
+                        <p class="btn-close__line-x transition"></p>
+                	</div>
+                    <!-- BEGIN info__inner  -->
+                    <div class="info__inner">
+                    	<h1 class="info__title">Nike SB Stefan<br>  Janoski Max</h1>
+                    	<div class="rating">
+                    		<p class="rating__title">Unisex Skateboarding Shoe (Men's Sizing)</p>
+                    		<i class="fa fa-star raiting__icon raiting__icon--selected" aria-hidden="true"></i>
+                    		<i class="fa fa-star raiting__icon raiting__icon--selected" aria-hidden="true"></i>
+                    		<i class="fa fa-star raiting__icon raiting__icon--selected" aria-hidden="true"></i>
+                    		<i class="fa fa-star raiting__icon" aria-hidden="true"></i>
+                    		<i class="fa fa-star raiting__icon" aria-hidden="true"></i>
+                    	</div>
+                        <div class="form">
+        					<form action="#">
+                               <select class="size" name="size" id="size">
+                                    <option>Size</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select class="qty" name="qty" id="qty">
+                                    <option>Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>  
+        					   <br><button class="btn-main btn-main--cart" type="submit">Add to cart</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- END info__inner -->
+                </div>
+                <!-- END info -->
+            </section>
+            <!-- END product -->
+        </main>
+        <!-- END main -->
+    </div>
+    <!-- END container -->
+</body>
+</html>
